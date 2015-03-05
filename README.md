@@ -2,8 +2,8 @@
 Install all dependencies by running provision.sh with `sudo ./provision.sh`  
 This will install all required apt packages and pip packages and will run the streamer script.  
 
-The streamer script has two modable variables: STREAMURL and STREAMRES.  
-Adjust STREAMURL to the stream of your choice and STREAMRES to the desired  
+The streamer script has two modable variables: `STREAMURL` and `STREAMRES`.  
+Adjust `STREAMURL` to the stream of your choice and `STREAMRES` to the desired  
 resolution (the options are some standards, different streaming plugins may require other options.)  
 The stream is than piped into omxplayer
 
